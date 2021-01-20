@@ -17,24 +17,24 @@
 }
 
 .text {
-  flex: 0 0 50%;
   max-width: 50%;
   padding-left: 5rem;
 }
 
-.text h6, .skills h6 {
-    font-size: 18px;
+.text p,
+.skills h6 {
+  font-size: 18px;
   font-weight: 400;
   margin: 0 0 25px;
   color: #000;
 }
 
-.text h6 span {
+.text p span {
   color: #5f88e0;
   position: relative;
 }
 
-.text h6 span::before {
+.text p span::before {
   content: "";
   left: 0;
   right: 90%;
@@ -44,7 +44,7 @@
   transition: all 0.5s ease;
 }
 
-.text h6 span:hover::before {
+.text p span:hover::before {
   content: "";
   left: 0;
   right: 0;
@@ -74,13 +74,13 @@
 .fa-ul li {
   font-size: 14px;
   font-weight: 400;
-  color: #838383
+  color: #838383;
 }
 
 .fa-ul .fa-li {
   font-size: 14px;
   font-weight: 400;
-  color: #838383
+  color: #838383;
 }
 
 .social {

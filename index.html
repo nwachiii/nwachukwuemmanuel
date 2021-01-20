@@ -1,291 +1,496 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="keywords" content="HTML, CSS, JavaScript">
-      <meta name="description" content="Nwachukwu Emmanuel - Portfolio">
-      <meta name="author" content="Nwachukwu Emmanuel">
-      <title>E. Nwachukwu | Front-End Developer</title>
-      <link rel="stylesheet" href="./css/header.css" />
-      <link rel="stylesheet" href="./css/main.css" />
-      <link rel="stylesheet" href="./css/home.css" />
-      <link rel="stylesheet" href="./css/about.css" />
-      <link rel="stylesheet" href="./css/service.css" />
-      <link rel="stylesheet" href="./css/testimonials.css" />
-      <link rel="stylesheet" href="./css/contact.css" />
-      <link rel="stylesheet" href="./css/footer.css"/>
-   </head>
-   <body>
-<!-- Header Section -->
-      <header>
-         <div class="container">
-            <div class="row">
-               <div class="brand-name">
-                  <a href="/" class="logo"><strong>Temofedev</strong></a>
-               </div>
-               <div class="hamburger">
-                  <i class="fa fa-bars"></i>
-               </div>
-               <div class="navbar">
-                  <ul>
-                     <li><a href="#home" class="active">Home</a></li>
-                     <li><a href="#about">About</a></li>
-                     <li><a href="#portfolio">Portfolio</a></li>
-                     <li><a href="#services">Services</a></li>
-                     <li><a href="#contact">Contact</a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-      </header>
-
-<!-- Home section -->
-      <section class="home" id="home">
-         <div class="container">
-            <div class="row full-screen">
-               <div class="home-content">
-                  <div class="block">
-                     <h6>Hi, my name is</h6>
-                     <h1>Nwachukwu Emmanuel</h1>
-                     <h3>A software developer and aspiring software architect</h3>
-                     <div class="cv-btn">
-                        <a href="./img/Official - Emmanuel Nwachukwu.pdf" download>Download Resume</a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-
-<!--about section-->
-      <section class="about" id="about">
-         <div class="container">
-         <div class="row">
-            <div class="about-content">
-               <div class="row">
-                  <div class="about-img">
-                     <img src="img/nwachi-emmanuel.jpg" alt='Nwachukwu Emmanuel Greatness' />
-                  </div>
-               
-                  <div class="text">
-                       <div class="title">
-                            <h1>About Me</h1>
-                     </div>
-                     <h6>
-                        I am a self taught software developer; And I hound a decent wealth of experience in front-end development. 
-                     </h6>
-                     <h6>
-                        My expertise in Team Collaboration, UI Design Implementation, JavaScript Development, Agile Development Practise and Cross-browser Compatibility speaks volume of my individuality.
-                     </h6>
-                     <h6>I'm passionate about creating and developing re-usable, maintainable, and scalable web apps. I also deploy my experience actively in helping newbie friends learning to code have a smooth transition.
-                        I find the concept of client/customer convinience and satisfaction very fufilling.
-                     </h6>
-                     <div class="skills">
-                        <h6>Here are a few stacks I've been working with:</h6>
-                        <div class="skills-list">
-                        <ul  class="fa-ul">
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JavaScript</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>HTML5</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>CSS3</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Bootstrap 4</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>JQuery</li>
-                        </ul>
-                        <ul  class="fa-ul">
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>React Js</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Ajax</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Git & Github</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>MongoDb</li>
-                           <li><span class="fa-li"><i class="fas fa-check-square"></i></span>Gatsby Js</li>
-                        </ul>
-                        </div>
-                     </div>
-                     <div class="social">
-                  <a href="https://twitter.com/temofedev"><i class="fa fa-twitter"></i></a>
-                  <a href="https://linkedin/in/nwachukwu_emmanuel"><i class="fa fa-linkedin"></i></a>
-                  <a href="htps://gihub.com/temofedev"><i class="fa fa-github"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="description" content="Nwachukwu Emmanuel - Portfolio" />
+    <meta name="author" content="Nwachukwu Emmanuel" />
+    <title>E. Nwachukwu | Front-End Developer</title>
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <link rel="stylesheet" href="./css/about.css" />
+    <link rel="stylesheet" href="./css/service.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+    <link rel="stylesheet" href="./css/testimonials.css" />
+    <link rel="stylesheet" href="./css/contact.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="brand-name">
+            <a href="/" class="logo"><strong>Nwachiii</strong></a>
+          </div>
+          <div class="hamburger">
+            <i class="fa fa-bars"></i>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a href="#home" class="active">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-      </section>
+    </header>
 
-<!-- services section-->
-      <section class="services" id="services">
-         <div class="container">
-            <div class="row">
-               <div class="title text-center">
-                  <h1>Services</h1>
-               </div>
+    <!-- Home section -->
+    <section class="home" id="home">
+      <div class="container">
+        <div class="row full-screen">
+          <div class="home-content">
+            <div class="block">
+              <h6>Hi, my name is</h6>
+              <h1>Nwachukwu Emmanuel</h1>
+              <h3>A Frontend developer and aspiring ReactJs Engineer</h3>
+              <div class="cv-btn">
+                <a
+                  target="_blank"
+                  href="./public/CV _ Emmanuel Nwachukwu.pdf"
+                  download
+                  >View Resume</a
+                >
+              </div>
             </div>
-            <div class="row">
-               <div class="service-content">
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-laptop"></i></div>
-                     <h5>Web Design</h5>
-                     <p>From single landing pages to a fully-blown eCommerce store,
-                        I'll create a design that fits you and your business.
-                     </p>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-code"></i></div>
-                     <h5>Web Development</h5>
-                     <p>I create fully scalable and economically viable web
-                        applications that boost your business.
-                     </p>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fas fa-palette"></i></div>
-                     <h5>UI Design Implementation</h5>
-                     <p>I strongly believe that a remarkable UI is a major contributor to higher user adoption rates, and easier onboarding. In view of this, I use my experience and tools to implement any design I can visualize.
-                     </p>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fas fa-wallet"></i></div>
-                     <h5>Awesome User Experience</h5>
-                     <p>I take an innovation-led approach to developing web applications
-                        that make use of modern technology to deliver awesome user experience.
-                     </p>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-mobile"></i></div>
-                     <h5>Apps Interface</h5>
-                     <p>To match the pace, I give my best to design eye-catching
-                        designs and prominent user-interfaces.
-                     </p>
-                  </div>
-                  <div class="box">
-                     <div class="icon"><i class="fa fa-rocket"></i></div>
-                     <h5>SEO</h5>
-                     <p>SEO is a critical component of online marketing. I use a
-                        combination of the latest onsite and off-site strategies to
-                        produce top results.
-                     </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--Tesimonials section-->
-      <section class="testimonials">
-         <div class="container">
+    <!--about section-->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-content">
             <div class="row">
-               <div class="title text-center">
-                  <h1>Testimonials</h1>
-               </div>
-            </div>
-            <div class="row">
-               <div class="testimonials-content">
-                  <div class="testimonials-box">
+              <div class="about-img">
+                <img
+                  src="img/nwachi-emmanuel.jpg"
+                  alt="Nwachukwu Emmanuel Greatness"
+                />
+              </div>
 
-                     <div class="testimonials-img">
-                        <div class="test-img">
-                           <img src="./img/testimonials/3.jpg" />
-                        </div>
-                        <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Ryan Florence</h6>
-                           <p>ReactJS Engineer</p>
-                        </div>
-                     </div>
-                      <div class="testimonials-img">
-                        <div class="test-img">
-                           <img src="./img/testimonials/1.jpeg" />
-                        </div>
-                        <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Mosh Hamedani</h6>
-                           <p>Software Engineer</p>
-                        </div>
-                     </div>
-                     <div class="testimonials-img">
-                        <div class="test-img">
-                           <img src="./img/testimonials/4.jpg" />
-                        </div>
-                        <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Amelia Madyson</h6>
-                           <p>Front-End Developer</p>
-                        </div>
-                     </div>
-                     <div class="testimonials-img">
-                        <div class="test-img">
-                           <img src="./img/testimonials/2.jpg" />
-                        </div>
-                        <div class="testimonials-text">
-                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, aliquam. Corrupti molestias quae culpa accusamus magni accusantium itaque dolore soluta.</p>
-                           <h6>Kyle Simpson</h6>
-                           <p>JavaScript Engineer</p>
-                        </div>
-                     </div>
+              <div class="text">
+                <div class="title">
+                  <h1>About Me</h1>
+                </div>
+                <div class="about-text">
+                  <p>
+                    I am a self taught software developer; And I hound a decent
+                    wealth of experience in front-end development.
+                  </p>
+                  <p>
+                    My expertise in Team Collaboration, UI Design
+                    Implementation, JavaScript Development, Agile Development
+                    Practise and Cross-browser Compatibility speaks volume of my
+                    individuality.
+                  </p>
+                  <p>
+                    I'm passionate about creating and developing re-usable,
+                    maintainable, and scalable web apps. I also deploy my
+                    experience actively in helping newbie friends learning to
+                    code have a smooth transition. I find the concept of
+                    client/customer convinience and satisfaction very fufilling.
+                  </p>
+                </div>
+                <div class="skills">
+                  <h6>Here are a few stacks I've been working with:</h6>
+                  <div class="skills-list">
+                    <ul class="fa-ul">
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >JavaScript
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >HTML5
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >CSS3
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >Bootstrap 4
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >JQuery
+                      </li>
+                    </ul>
+                    <ul class="fa-ul">
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >VSCode
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >Slack
+                      </li>
+                      <li>
+                        <span class="fa-li"
+                          ><i class="fas fa-check-square"></i></span
+                        >Git & Github
+                      </li>
+                    </ul>
                   </div>
-                  <div class="slider"></div>
-               </div>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/nwachiii"
+                    ><i class="fa fa-twitter"></i
+                  ></a>
+                  <a href="https://linkedin/in/nwachukwu_emmanuel"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                  <a href="htps://gihub.com/nwachiii"
+                    ><i class="fa fa-github"></i
+                  ></a>
+                </div>
+              </div>
             </div>
-         </div>
-      </section>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--Contact section-->
-      <section class="contact" id="contact">
-         <div class="container">
-            <div class="row">
-               <div class="title text-center">
-                  <h1>Get In Touch</h1>
-               </div>
+    <!-- services section-->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center">
+            <h1>Services</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="service-content">
+            <div class="box">
+              <div class="icon"><i class="fa fa-laptop"></i></div>
+              <h5>Web Design</h5>
+              <p>
+                From single landing pages to a fully-blown eCommerce store, I'll
+                create a design that fits you and your business.
+              </p>
             </div>
-            <div class="row">
-               <div class="contact-form">
-                  <div class="row">
-                     <div class="contact-text">
-                        <h2>Drop Me  a Message</h2>
-                        <p>I am open for contract, freelance or remote work. Kindly reach out and I'd respond ASAP!</p>
-                     </div>
-                  </div>
-                  <div class="row space-between">
-                     <div class="col-6">
-                        <input type="text" class="form-control" name="" placeholder="Name" />
-                     </div>
-                     <div class="col-6">
-                        <input type="text" class="form-control" name="" placeholder="Email" />
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12">
-                        <textarea class="form-control" placeholder="Your Message"></textarea>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="button btn">
-                        <a href="https://egreatness1@gmail.com">Get In Touch</a>
-                     </div>
-                  </div>
-               </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-code"></i></div>
+              <h5>Web Development</h5>
+              <p>
+                I create fully scalable and economically viable web applications
+                that boost your business.
+              </p>
             </div>
-         </div>
-      </section>
+            <div class="box">
+              <div class="icon"><i class="fas fa-palette"></i></div>
+              <h5>UI Design Implementation</h5>
+              <p>
+                I strongly believe that a remarkable UI is a major contributor
+                to higher user adoption rates, and easier onboarding. In view of
+                this, I use my experience and tools to implement any design I
+                can visualize.
+              </p>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fas fa-wallet"></i></div>
+              <h5>Awesome User Experience</h5>
+              <p>
+                I take an innovation-led approach to developing web applications
+                that make use of modern technology to deliver awesome user
+                experience.
+              </p>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-mobile"></i></div>
+              <h5>Apps Interface</h5>
+              <p>
+                To match the pace, I give my best to design eye-catching designs
+                and prominent user-interfaces.
+              </p>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-rocket"></i></div>
+              <h5>SEO</h5>
+              <p>
+                SEO is a critical component of online marketing. I use a
+                combination of the latest onsite and off-site strategies to
+                produce top results.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!--Footer section-->
-      <footer>
-         <div class="container">
-            <div class="row">
-               <div class="footer-logo">Temofedev</div>
-               <div class="social-link">
-                  <a href="https://twitter.com/temofedev"><i class="fa fa-twitter"></i></a>
-                  <a href="https://linkedin/in/nwachukwu_emmanuel"><i class="fa fa-linkedin"></i></a>
-                  <a href="htps://gihub.com/temofedev"><i class="fa fa-github"></i></a>
-               </div>
+    <!-- portfolio section-->
+    <section class="portfolio" id="services">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center">
+            <h1>Portfolio</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="portfolio-content">
+            <div class="p__box">
+              <h4>Zuri Internship</h4>
+              <p>
+                A group project proposition for the 8th edition of HNG
+                Internship(Hngi8). The HNG internship is a 3-month remote
+                internship designed to find and develop talented software
+                developers.
+              </p>
+              <p>
+                I built the Mentors page, Admin(approved applications, declined
+                applications) dashboards, and contributed to the homepage.
+              </p>
+              <p>
+                Tools used were: Figma, HTML5, CSS, Bootstrap,
+                Animate-On-Scroll, EmbeddedJs, ExpressJs, Heroku
+              </p>
+              <div class="p__btn">
+                <a target="_blank" href="https://zuri-live.herokuapp.com/"
+                  ><button class="view__btn">View</button></a
+                >
+              </div>
             </div>
-         </div>
-      </footer>
-      <section class="copyright">
-         <div class="container">
-            <p>© 2020<span id="year"></span> | Developed By Nwachukwu Emmanuel. | All rights reserved.</p>
-         </div>
-      </section>
-      <script src="./js/app.js"></script>
-   </body>
+            <div class="p__box">
+              <h4>TIC TAC TOE</h4>
+              <p>
+                The Tic-Tac-Toe game(also called Noughts and Crosses) is a
+                <a target="_blank" href="https://freecodecamp.org"
+                  >freecodecamp</a
+                >
+                project requirement for the Frontend certification. Kindly
+                accept the challenge to play and see if you can win the
+                computer(My Logic anyway &#128514;)
+              </p>
+              <p>
+                While building this game, I had to think through all the
+                possibilities and conditions required for winning, losing or
+                drawing a game. I had to think for the computer and think ahead
+                of the unknown user/player. You bet, it was really challenging
+                for a beginner &#128540;
+              </p>
+              <p>
+                Tools used were: HTML5, CSS3, JavaScript, Bootstrap, Codepen
+              </p>
+              <div class="p__btn">
+                <a
+                  target="_blank"
+                  href="https://codepen.io/nwachukwu_emmanuel/full/LNgjVQ"
+                  ><button class="view__btn">View</button></a
+                >
+              </div>
+            </div>
+            <div class="p__box">
+              <h4>FundMyLaptop</h4>
+              <p>
+                A budding start up that came off from the HNGi7 internship.
+                FundMyLaptop is a B2B platform where people with Laptop needs
+                can get funding, investors can Lend prospects, and Laptop
+                businesses can Sell
+              </p>
+              <p>
+                I built the signup page, Benefits page and contributed to
+                setting up the homepage
+              </p>
+              <p>
+                Tools used were: Figma, ReactJs, GSap, JQuery, Bootstrap,
+                ExpressJs, Laravel
+              </p>
+              <div class="p__btn">
+                <a target="_blank" href="https://www.fundmylaptop.com"
+                  ><button class="view__btn">View</button></a
+                >
+              </div>
+            </div>
+            <div class="p__box">
+              <h4>SafeChild App</h4>
+              <p>
+                A landing page for a futuristic app that could detect if a child
+                is in danger and alert the parent immediately. This was a
+                fontend challenge in the early stages of my internship with
+                <a target="_blank" href="https://hotels.ng">Hotels.ng</a>
+              </p>
+              <p>Tools used were: Figma, HTML5, CSS, JavaScript, Gsap</p>
+              <div class="p__btn">
+                <a target="_blank" href="https://nwachiii.github.io/SafeChild/"
+                  ><button class="view__btn">View</button></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Tesimonials section-->
+    <!-- <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center">
+            <h1>Testimonials</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="testimonials-content">
+            <div class="testimonials-box">
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/3.jpg" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Ryan Florence</h6>
+                  <p>ReactJS Engineer</p>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/1.jpeg" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Mosh Hamedani</h6>
+                  <p>Software Engineer</p>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/4.jpg" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Amelia Madyson</h6>
+                  <p>Front-End Developer</p>
+                </div>
+              </div>
+              <div class="testimonials-img">
+                <div class="test-img">
+                  <img src="./img/testimonials/2.jpg" />
+                </div>
+                <div class="testimonials-text">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Molestias, aliquam. Corrupti molestias quae culpa accusamus
+                    magni accusantium itaque dolore soluta.
+                  </p>
+                  <h6>Kyle Simpson</h6>
+                  <p>JavaScript Engineer</p>
+                </div>
+              </div>
+            </div>
+            <div class="slider"></div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!--Contact section-->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="title text-center">
+            <h1>Get In Touch</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form">
+            <div class="row">
+              <div class="contact-text">
+                <h2>Drop Me a Message</h2>
+                <p>
+                  I am open for contract, freelance or remote work. Kindly reach
+                  out and I'd respond ASAP!
+                </p>
+              </div>
+            </div>
+            <div class="row space-between">
+              <div class="col-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  placeholder="Name"
+                />
+              </div>
+              <div class="col-6">
+                <input
+                  type="text"
+                  class="form-control"
+                  name=""
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <textarea
+                  class="form-control"
+                  placeholder="Your Message"
+                ></textarea>
+              </div>
+            </div>
+            <div class="row">
+              <div class="button btn">
+                <a href="https://egreatness1@gmail.com">Get In Touch</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer section-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer-logo">nwachiii</div>
+          <div class="social-link">
+            <a href="https://twitter.com/nwachiii"
+              ><i class="fa fa-twitter"></i
+            ></a>
+            <a href="https://linkedin/in/nwachukwu_emmanuel"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <a href="htps://gihub.com/nwachiii"><i class="fa fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="copyright">
+      <div class="container">
+        <p>
+          © 2020<span id="year"></span> | Developed By Nwachukwu, Emmanuel. |
+          All rights reserved.
+        </p>
+      </div>
+    </section>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
-

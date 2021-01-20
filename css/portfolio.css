@@ -1,0 +1,106 @@
+.portfolio {
+  background-color: #182549;
+  padding: 50px 15px 70px;
+}
+
+.portfolio .container .row .title h1::before {
+  left: 30%;
+}
+
+.portfolio h1 {
+  color: #efefef;
+}
+
+.portfolio-content {
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.p__box {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(45px);
+  flex: 0 0 calc(33.33% - 20px);
+  max-width: calc(33.33% - 20px);
+  margin-bottom: 30px;
+  border: 1px solid #182549;
+  border-radius: 5px;
+  padding: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.p__box::before {
+  content: "";
+  height: 2px;
+  background-color: #5f88e0;
+  position: absolute;
+  bottom: 0px;
+  width: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+
+.p__box:hover::before {
+  width: 100%;
+}
+
+/* .box .p__btn button {
+  font-size: 25px;
+  color: #fff;
+  line-height: 60px;
+} */
+
+.view__btn {
+  cursor: pointer;
+  font-size: 14px;
+  color: rgb(236, 241, 250);
+  background-color: #5f88e0;
+  border: 1px solid rgb(236, 241, 250);
+  border-radius: 7px;
+  padding: 12px 25px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.view__btn:hover {
+  background-color: #efefef;
+  color: #000;
+}
+
+.view__btn:focus,
+.view__btn:active {
+  outline: none;
+}
+
+.p__box h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #efefef;
+  margin: 0;
+}
+
+.p__box p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: lightgray;
+  margin: 1em 10px;
+}
+
+.p__box p a {
+  color: #8197d5;
+}
+
+@media (max-width: 450px) {
+  .p__box p {
+    text-align: left;
+  }
+}

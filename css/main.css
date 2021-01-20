@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css");
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
@@ -107,13 +107,13 @@ a {
   color: #000;
 }
 
-@media(max-width: 991px) {
+@media (max-width: 991px) {
   .block h1 {
     font-size: 50px;
   }
 }
 
-@media(max-width: 767px) {
+@media (max-width: 767px) {
   .home .home-content .block h1 {
     font-size: 40px;
   }
@@ -156,7 +156,6 @@ a {
   .navbar ul li {
     display: block;
     margin-left: 0;
-
   }
 
   .navbar ul li a {
@@ -181,7 +180,8 @@ a {
     padding-top: 30px;
   }
 
-  .service-content .box {
+  .service-content .box,
+  .portfolio-content .p__box {
     padding: 30px;
     flex: 0 0 100%;
     max-width: 100%;
@@ -203,7 +203,6 @@ a {
     flex: 0 0 100%;
     max-width: 100%;
     text-align: left;
-
   }
 
   .blog-content {
@@ -226,7 +225,7 @@ a {
   }
 }
 
-@media(max-width: 500px) {
+@media (max-width: 500px) {
   .home .home-content .block {
     padding-left: 20px;
   }
@@ -242,7 +241,7 @@ a {
   .about .about-content .social a {
     margin: 0px 3px;
   }
-  
+
   .gallery .item {
     flex: 0 0 100%;
     max-width: 100%;
@@ -256,6 +255,5 @@ a {
   .testimonials-img .test-img {
     flex: 0 0 100%;
     max-width: 100%;
-
   }
 }
